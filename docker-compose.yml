@@ -6,7 +6,7 @@ services:
     container_name: moodle-web
     restart: unless-stopped
     ports:
-      - "8080:80"                   # access via http://localhost:8080
+      - "8081:80"                   # access via http://localhost:8080
     volumes:
       - ./src:/var/www/html         # Moodle source code
       - moodle_data:/var/www/moodledata
