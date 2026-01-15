@@ -30,3 +30,5 @@ RUN mkdir -p /var/www/moodledata \
     && chmod -R 755 /var/www/moodledata
 
 EXPOSE 80
+
+COPY ./src /var/www/html
